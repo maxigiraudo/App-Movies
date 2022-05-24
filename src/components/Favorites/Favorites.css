@@ -1,0 +1,96 @@
+.cnt {
+  padding-top: 10px;
+}
+
+.peliculasFavoritash2 {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #000;
+
+  /* text-shadow: 1px 1px #fff; */
+  box-shadow: 1px 1px #000;
+  padding: 5px;
+}
+
+.contenedorF {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.elementoF {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+
+.listaF {
+  padding-inline-start: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tituloF {
+  background-color: white;
+  width: fit-content;
+  display: grid;
+  box-shadow: 5px 5px #57cc99;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 3px;
+  font-weight: 600;
+}
+.tituloF:hover {
+  background-color: #57cc99;
+  box-shadow: 5px 5px white;
+}
+
+.tituloFA {
+  text-decoration: none;
+  color: #000;
+}
+
+.tituloFA:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.botonF {
+  /* min-width: 130px; */
+  height: fit-content;
+  color: #fff;
+  /* padding: 5px 10px; */
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: grid;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #57cc99;
+  color: #57cc99;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.botonF:hover {
+  color: #fff;
+}
+.botonF:hover:after {
+  width: 100%;
+}
+.botonF:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #57cc99;
+}
